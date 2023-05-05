@@ -10,7 +10,7 @@
                     echo "<div class=row><div class=col><div class=card>
             <div class=card-title d-flex justify-content-center>
             <div class=form-check>
-            <input type=checkbox class=form-check-input name=".$arr[$i]['sn']." id=dropdownCheck>
+            <input type='checkbox' class='form-check-input delete-checkbox' name=".$arr[$i]['sn']." id='dropdownCheck'>
            
             </div>
             </div>

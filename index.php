@@ -1,5 +1,7 @@
 <?php
-    include('lib/autoloader.php');
+    include('./classes/db.class.php');
+    include('./classes/catalog.class.php');
+    include('./classes/catalogview.class.php');
     $sp = new CatalogView();
 ?>
 
@@ -30,9 +32,9 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="index.php">Product List</a>
           <div class="d-flex grid gap-3">
-            <a class="btn btn-outline-success" href="./add-product/">Add</a>
+            <a class="btn btn-outline-success" href="./add-product/">ADD</a>
             <button class="btn btn-danger" href="" name="submit" type="submit">
-              Mass Delete
+              MASS DELETE
             </button>
           </div>
         </div>
